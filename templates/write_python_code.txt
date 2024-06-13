@@ -1,6 +1,4 @@
-<prompt heat="1">
-Write the following functionality in modern Python programming standards and formatting: {}
-</prompt>
+<prompt heat="1">Write the following functionality in modern Python programming standards and formatting: {}</prompt>
 <prompt heat="1">Review your provided code {} for any logical or security concerns and provide a list of recommendations.</prompt>
 <prompt heat="1">Review your above recommendations. Tell me why you were wrong and if any recommendations were overlooked or incorrectly added? {}</prompt>
 <prompt heat="1">Re-write the {} based off your review and recommendations.</prompt>
