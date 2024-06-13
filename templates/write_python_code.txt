@@ -1,0 +1,10 @@
+<prompt heat="1">
+Write the following functionality in modern Python programming standards and formatting: {}
+</prompt>
+<prompt heat="1">Review your provided code {} for any logical or security concerns and provide a list of recommendations.</prompt>
+<prompt heat="1">Review your above recommendations. Tell me why you were wrong and if any recommendations were overlooked or incorrectly added? {}</prompt>
+<prompt heat="1">Re-write the {} based off your review and recommendations.</prompt>
+<prompt heat="1">Add if __name__ == '__main__': code block to test the result {}</prompt>
+<prompt heat="1">Create two TestCases written on pytest framework for the above code {}.  One that is expected to pass and one that is expected to fail.</prompt>
+<prompt heat="1">Review your code above. Tell me why you were wrong and if any recommendations were overlooked or incorrectly added? {}</prompt>
+<prompt heat="1">Please leave only Python code without any comments{}</prompt>

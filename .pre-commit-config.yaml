@@ -1,0 +1,28 @@
+# Check for updating hooks to last versions https://pre-commit.com/index.html#updating-hooks-automatically
+
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0  # Use the ref you want to point at
+    hooks:
+    -   id: check-added-large-files
+    -   id: check-ast
+    -   id: check-merge-conflict
+- repo: https://github.com/asottile/dead
+  rev: v1.5.2
+  hooks:
+    - id: dead
+      entry: bash -c 'dead "$@" || true' --
+      verbose: true
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: 'v0.4.1'
+  hooks:
+    - id: ruff
+      args:
+        - "--fix"
+        - "--exit-non-zero-on-fix"
+        - "--ignore=E501"
+-   repo: https://github.com/psf/black
+    rev: 24.4.0
+    hooks:
+    -   id: black
+        exclude: ^.*\b(migrations)\b.*$

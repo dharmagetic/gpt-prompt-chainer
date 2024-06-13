@@ -1,0 +1,1 @@
+<prompt heat="1">{}</prompt>
